@@ -35,7 +35,7 @@ CREATE TABLE data_barang(
 );
 ```
 
-![Create Database](img/database.png)
+![Create Database](img/database.PNG)
 
 3. Setelah itu, Tambahkan data dalam table tersebut dengan memasukan perintah berikut.
 
@@ -43,7 +43,7 @@ CREATE TABLE data_barang(
 INSERT INTO `data_barang` (`id_barang`, `nama_barang`, `kategori_barang`, `gambar_barang`, `harga_beli`, `harga_jual`, `stok`) VALUES (NULL, 'Laptop', 'Elektronik', 'gambar/laptop.jpg', '30000000', '30500000', '1'), (NULL, 'Monitor', 'Elektronik', 'gambar/monitor.jpg', '6070000', '6080000', '2');
 ```
 
-![Data Barang](img/databarang.png)
+![Data Barang](img/databarang.PNG)
 
 ## Membuat Program CRUD
 
@@ -65,7 +65,7 @@ if ($koneksi == false) {
 3. Jika gambarnya seperti ini maka berhasil koneksi ke database. Untuk menyampilkan pesan koneksi berhasil,
    uncomment pada perintah var_dump($koneksi);
 
-![Koneksi](img/koneksi.png)
+![Koneksi](img/koneksi.PNG)
 
 ## Menampilkan Data (Read)
 
@@ -173,7 +173,7 @@ $result = mysqli_query($koneksi, $query);
 
 - Maka hasilnya akan seperti berikut.
 
-![Read](img/read.png)
+![Read](img/read.PNG)
 
 ## Menambah Data (Create)
 
@@ -364,7 +364,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Jika berhasil, maka data baru sukses ditambahkan.
 
-![Proses-Tambah](img/tambah.png)
+![Proses-Tambah](img/tambah.PNG)
 
 ## Mengubah Data (Update)
 
@@ -487,7 +487,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Update](img/ubahbarang.png)
+![Update](img/ubahbarang.PNG)
 
 ## Menghapus Data (Delete)
 
@@ -509,6 +509,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 - Maka hasilnya akan seperti berikut.
 
-![Detele](img/delete.png)
+![Detele](img/delete.PNG)
 
 # Terima Kasih!
